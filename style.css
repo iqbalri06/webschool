@@ -1,0 +1,236 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background: url(images/school.jpeg)
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #1C3879;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 3rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+img{
+    width: 5%;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 0%;
+    height: -80px;
+    float: left;
+}
+
+nav ul li:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF9F29;
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+}
+
+.img1 {
+    margin-left: -5rem;
+    width: 1553px;
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.judul  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+}
+
+.judul h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.judul p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: normal;
+
+}
+
+.img-matrik {
+    margin-top: 5rem;
+    width: 350px;
+    margin-bottom: 35px;
+}
+
+.img-makanan {
+    margin-top: 5rem;
+    width: 350px;
+    margin-bottom: 65px;
+    margin-right: 40px;
+}
+
+.content-matrik h2 {
+    margin-top: 115px;
+}
+
+.img-kantin {
+    margin-top: 5rem;
+    width: 370px;
+    margin-bottom: 35px;
+}
+
+.content-kantin h2 {
+    margin-top: 115px;
+}
+
+.content-makanan {
+    margin-top: 115px;
+
+}
+
+.section {
+    background-image: url("contenwikrama.png");
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+    background-size: 100%;
+}
+
+.section h2 {
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: gray;
+}
+
+.content1-perpus p {
+    margin-left: 405px;
+}
+
+.content2-perpus p {
+    margin-left: 405px;
+}
+
+.content2-perpus h3 {
+    margin-left: 405px;
+}
+
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+ 
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#courses img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main {
+    background-color:#0F3460;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+  
+    .footer-grid {
+      padding-left: 20px;
+    }
+  
+  .footer-grid p {
+    margin: 10px 0;
+  }
+
+
+footer{
+    background-color: #F77E21;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0%;
+}
+
+/*selesai*/
